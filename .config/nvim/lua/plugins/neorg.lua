@@ -1,0 +1,38 @@
+return {
+  -- "nvim-neorg/neorg",
+  -- lazy = false,
+  -- version = "*",
+  -- config = function()
+  --   require("neorg").setup({
+  --     load = {
+  --       ["core.defaults"] = {},
+  --       ["core.concealer"] = {},
+  --       ["core.dirman"] = {
+  --         config = {
+  --           workspaces = {
+  --             secondbrain = "/Users/shivayanbora/PracticeCodebase/neorg-wiki",
+  --           },
+  --           default_workspace = "secondbrain",
+  --           index = "index.norg",
+  --         },
+  --       },
+  --       ["core.integrations.telescope"] = {},
+  --       ["core.export"] = {
+  --         export_dir = "/Users/shivayanbora/PracticeCodebase/neorg-wiki",
+  --       },
+  --       ["core.pivot"] = {},
+  --       ["core.summary"] = {},
+  --       ["external.templates"] = {},
+  --       ["external.conceal-wrap"] = {},
+  --       ["external.context"] = {},
+  --     },
+  --   })
+  -- end,
+  -- dependencies = {
+  --   { "nvim-lua/plenary.nvim" },
+  --   { "nvim-neorg/neorg-telescope" },
+  --   { "pysan3/neorg-templates", dependencies = { "L3MON4D3/LuaSnip" } },
+  --   { "benlubas/neorg-conceal-wrap" },
+  --   { "max397574/neorg-contexts" },
+  -- },
+}

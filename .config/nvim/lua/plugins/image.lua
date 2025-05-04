@@ -1,0 +1,42 @@
+return {
+  -- "3rd/image.nvim",
+  -- lazy = false,
+  -- config = function()
+  --   require("image").setup({
+  --     backend = "kitty", -- works with Ghostty's Kitty support[4]
+  --     kitty_method = "normal",
+  --     integrations = {
+  --       markdown = {
+  --         enabled = true,
+  --         only_render_image_at_cursor = true, -- Render only the image at the cursor
+  --
+  --         -- The key is customizing "resolve_image_path" to handle Obsidian-style links
+  --         resolve_image_path = function(document_path, image_path, fallback)
+  --           -- Replace with your actual vault path
+  --           local vault_dir = "/Users/shivayanbora/PKM/My-Wiki-Vault"
+  --           -- If the current document is inside the vault, adjust the path.
+  --           -- For example, if you store attachments in VaultRoot/Attachments
+  --           if document_path:find(vault_dir, 1, true) then
+  --             return vault_dir .. "/assets/" .. image_path
+  --           end
+  --           -- Otherwise, just fall back to the default behavior
+  --           return fallback(document_path, image_path)
+  --         end,
+  --       },
+  --     },
+  --     max_width = 100,
+  --     max_height = 12,
+  --     max_height_window_percentage = math.huge,
+  --     max_width_window_percentage = math.huge,
+  --     window_overlap_clear_enabled = true,
+  --     window_overlap_clear_ft_ignore = { "cmp_menu", "cmp_docs", "" },
+  --   })
+  --   -- Add this autocmd to fix the modifiable buffer error
+  --   vim.api.nvim_create_autocmd("BufNewFile", {
+  --     pattern = "*.md",
+  --     callback = function()
+  --       vim.opt_local.modifiable = true
+  --     end,
+  --   })
+  -- end,
+}

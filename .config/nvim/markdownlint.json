@@ -1,0 +1,11 @@
+{
+  "default": true,
+  "MD013": false,
+  "MD033": false,
+  "MD041": false,
+  "MD022": false,
+  "MD023": false,
+  "line_length": false,
+  "no-space-in-atx": true
+}
+      

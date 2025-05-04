@@ -1,0 +1,44 @@
+# Appearance
+font-family = "Hack Nerd Font Mono"
+font-size = 14
+cursor-style = block
+cursor-blink = false
+macos-hide-title-bar = false
+background-opacity = 0.98
+window-padding-x = 15
+window-padding-y = 15
+confirm-close-surface = false
+cursor-color = 0xff9e64
+
+# Theme
+# include = "~/.config/ghostty/themes/tokyonight_moon.toml"
+
+# Mouse
+selection-foreground = 0x24283b
+selection-background = 0xc0caf5
+mouse-hide-while-typing = true
+
+# Keybindings (TMUX Integration)
+keybind = cmd+shift+h=discard:tmux:send-keys C-space h
+keybind = cmd+shift+j=discard:tmux:send-keys C-space j
+keybind = cmd+shift+k=discard:tmux:send-keys C-space k
+keybind = cmd+shift+l=discard:tmux:send-keys C-space l
+
+# Split creation
+keybind = cmd+shift+d=discard:tmux:send-keys C-space \"
+keybind = cmd+d=discard:tmux:send-keys C-space %
+
+# Navigation
+keybind = cmd+1=discard:tmux:send-keys C-space 1
+keybind = cmd+2=discard:tmux:send-keys C-space 2
+keybind = cmd+3=discard:tmux:send-keys C-space 3
+keybind = cmd+4=discard:tmux:send-keys C-space 4
+keybind = cmd+5=discard:tmux:send-keys C-space 5
+keybind = cmd+6=discard:tmux:send-keys C-space 6
+keybind = cmd+7=discard:tmux:send-keys C-space 7
+keybind = cmd+8=discard:tmux:send-keys C-space 8
+keybind = cmd+9=discard:tmux:send-keys C-space 9
+
+# Terminal Performance
+max-fps = 120
+prefer-egl = true
